@@ -5,7 +5,7 @@ export const AddTransaction = () => {
     const [description, setDescription] = useState('');
     const [transactionAmount, setTransactionAmount] = useState('');
 
-    const { transactions, addTransaction } = useContext(GlobalContext);
+    const { addTransaction } = useContext(GlobalContext);
     // console.log(addTransaction);
 
     const handleTransaction = (e) => {

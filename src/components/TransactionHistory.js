@@ -11,14 +11,8 @@ export const TransactionHistory = () => {
             <p>History</p>
             <hr />
             <ul>
-                {transactions.map((transaction, index) => {
-                    {/* console.log(transaction) */ }
-                    return (<Transaction transaction={transaction} key={index} />)
-                    {/* return <li key={index}><span>{transaction.description}</span><span>{transaction.amount}</span></li> */ }
-
-                })}
-                {/* <li><span>School fee</span><span>-Rs 3000</span></li>
-                <li><span>Pay</span><span>+Rs 1550</span></li> */}
+                {transactions.map((transaction, index) => <Transaction transaction={transaction} key={index} />
+                )}
             </ul>
         </div>
     )
