@@ -1,0 +1,141 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+.main-container {
+    width: 35%;
+    margin: auto;
+    /* background-color: bisque; */
+}
+
+/* Header file ================================================ */
+.header {
+font-size: 1.4em;
+font-weight: 600;
+/* margin-bottom: 30px; */
+}
+
+/* Balance file ================================================ */
+.balance-container span {
+    font-size: 2.7em;
+    /* background-color: red; */
+}
+
+.balance-container p {
+    margin-bottom: 0em;
+    /* background-color: green; */
+}
+
+
+
+/* AccountSummary file ================================================ */
+.account-summary-container{
+    display: flex;
+    box-shadow: 4px 4px rgb(200, 200, 200);
+    padding: 0em 0em 0.5em 0em;
+    background-color: white;
+    justify-content: space-evenly;
+    border: 1px solid gainsboro;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.account-summary-container p {
+    margin-bottom: 0em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.income-value-div , .expense-value-div {
+    /* display: inline-block; */
+    /* background-color: chartreuse; */
+    text-align: center;
+    /* padding: 0em; */
+}
+
+.income-value-div span {
+    color: green;
+    font-size: 3em;
+}
+
+.expense-value-div span {
+    color: crimson;
+    font-size: 3em;
+}
+
+/* TransactionHistory file ================================================ */
+.transaction-history-container {
+    margin-top: 0em;
+}
+
+.transaction-history-container p {
+    /* font-size: 30px; */
+    font-weight: 500;
+    margin-bottom: 0em;
+}
+
+.transaction-history-container ul {
+    /* background-color: gold; */
+    list-style: none;
+    padding-left: 0em;
+    
+}
+
+.transaction-history-container ul li {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 0.7em;
+    padding: 1em;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    /* border-right: 10px solid red; */
+    color: rgb(105, 102, 102);
+    /* box-shadow: 4px 4px rgb(200, 200, 200); */
+}
+
+.income {
+    border-right: 0.6em solid green;
+}
+
+.expense {
+    border-right: 0.6em solid red;
+}
+
+.transaction-history-container ul li button {
+    background-color: rgb(226, 219, 219);
+    margin: 0em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+/* AddTransaction file ================================================ */
+.add-new-transaction-container p {
+    margin-bottom: 0em;
+    font-weight: 500;
+}
+
+.add-new-transaction-container input {
+    border-radius: 5px;
+    padding: 0.6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.add-transaction-btn {
+    background-color: rgb(74, 158, 74);
+    color: white;
+    padding: 0.5em;
+    /* border: none; */
+    border-radius: 0.5em;
+    width: 100%;
+    /* margin: auto; */
+    padding: 0.6em;
+    margin-left:0.7em;
+}
+
+.add-new-transaction-container span {
+    /* color: chartreuse; */
+    font-weight: 400;
+    font-size: 0.9em;
+}
