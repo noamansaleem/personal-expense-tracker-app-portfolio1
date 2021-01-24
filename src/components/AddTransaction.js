@@ -55,8 +55,9 @@ export const AddTransaction = () => {
                     required="required"
                 />
                 <br />
-                <button className="add-transaction-btn">Add Transaction</button>
-                {/* <input type="submit" value="Add Transaction" /> */}
+                <div className="d-grid gap-2">
+                    <button className="btn btn-success">Add Transaction</button>
+                </div>
             </form>
         </div >
     )

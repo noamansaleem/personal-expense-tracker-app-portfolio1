@@ -3,8 +3,8 @@ body {
     background-color: rgb(235, 235, 235);
 }
 .main-container {
-    width: 35%;
-    margin: auto;
+    /* width: 35%; */
+    /* margin: auto; */
     /* background-color: bisque; */
 }
 
@@ -32,18 +32,21 @@ font-weight: 600;
 .account-summary-container{
     display: flex;
     box-shadow: 4px 4px rgb(200, 200, 200);
-    padding: 0em 0em 0.5em 0em;
+    /* padding: 0em 0em 0.5em 0em; */
     background-color: white;
     justify-content: space-evenly;
     border: 1px solid gainsboro;
-    margin-top: 0em;
-    margin-bottom: 0em;
+    /* margin-top: 0em; */
+    /* margin-bottom: 0em; */
+    height: 6.1em;
+    border-radius: 0.5em;
+    margin-bottom: 1.6em;
 }
 
 .account-summary-container p {
     margin-bottom: 0em;
     font-weight: 500;
-    margin-top: 1em;
+    margin-top: 0.3em;
 }
 
 .income-value-div , .expense-value-div {
@@ -51,6 +54,7 @@ font-weight: 600;
     /* background-color: chartreuse; */
     text-align: center;
     /* padding: 0em; */
+    /* margin-bottom: 9em; */
 }
 
 .income-value-div span {
@@ -116,8 +120,8 @@ font-weight: 600;
 
 .add-new-transaction-container input {
     border-radius: 5px;
-    padding: 0.6em;
-    margin-top: 1em;
+    padding: 0.2em;
+    margin-top: 0.3em;
     margin-bottom: 1em;
     width: 100%;
 }
@@ -125,13 +129,13 @@ font-weight: 600;
 .add-transaction-btn {
     background-color: rgb(74, 158, 74);
     color: white;
-    padding: 0.5em;
+    /* padding: 0.5em; */
     /* border: none; */
     border-radius: 0.5em;
-    width: 100%;
+    /* width: 100%; */
     /* margin: auto; */
     padding: 0.6em;
-    margin-left:0.7em;
+    /* margin-left:0.7em; */
 }
 
 .add-new-transaction-container span {
