@@ -18,7 +18,7 @@ function App() {
     <GlobalProvider>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 offset-lg-4 col-md-8 offset-md-2">
+          <div className="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
             <Header />
             <Balance />
             <AccountSummary />
